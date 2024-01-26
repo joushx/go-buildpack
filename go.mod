@@ -3,7 +3,7 @@ module github.com/cloudfoundry/go-buildpack
 go 1.18
 
 require (
-	github.com/Dynatrace/libbuildpack-dynatrace v1.5.2
+	github.com/Dynatrace/libbuildpack-dynatrace@k8s-8877-fips
 	github.com/Masterminds/semver v1.5.0
 	github.com/ZiCog/shiny-thing v0.0.0-20121130081921-e9e19444ccf5
 	github.com/cloudfoundry/libbuildpack v0.0.0-20231211162543-86d10e150195

@@ -635,6 +635,8 @@ github.com/Dynatrace/libbuildpack-dynatrace v1.5.3-0.20240129120307-e79c4baf853d
 github.com/Dynatrace/libbuildpack-dynatrace v1.5.3-0.20240129120307-e79c4baf853d/go.mod h1:Uu9aa5UFAk1Ua+zZXnvzo+avDXuEi+GtegeOyja9xg4=
 github.com/Dynatrace/libbuildpack-dynatrace v1.5.3-0.20240129121213-8c516ad5d4be h1:SShMXpU9f/LUCUghZDIW71OXxHoY8Zjeo1NynykiLOQ=
 github.com/Dynatrace/libbuildpack-dynatrace v1.5.3-0.20240129121213-8c516ad5d4be/go.mod h1:Uu9aa5UFAk1Ua+zZXnvzo+avDXuEi+GtegeOyja9xg4=
+github.com/Dynatrace/libbuildpack-dynatrace v1.5.3-0.20240129123949-a1cfc591de12 h1:gSy+zllM2TcE7Z89HnFS4+sLXRMSMEt5+6mr/fbH1VA=
+github.com/Dynatrace/libbuildpack-dynatrace v1.5.3-0.20240129123949-a1cfc591de12/go.mod h1:Uu9aa5UFAk1Ua+zZXnvzo+avDXuEi+GtegeOyja9xg4=
 github.com/GoogleCloudPlatform/docker-credential-gcr v2.0.5+incompatible/go.mod h1:BB1eHdMLYEFuFdBlRMb0N7YGVdM5s6Pt0njxgvfbGGs=
 github.com/JohnCGriffin/overflow v0.0.0-20211019200055-46fa312c352c/go.mod h1:X0CRv0ky0k6m906ixxpzmDRLvX58TFUKS2eePweuyxk=
 github.com/Masterminds/goutils v1.1.1/go.mod h1:8cTjp+g8YejhMuvIA5y2vz3BpJxksy863GQaJW2MFNU=

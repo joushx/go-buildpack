@@ -189,6 +189,7 @@ func (h *Hook) AfterCompile(stager *libbuildpack.Stager) error {
 
 	}
 
+	h.Log.Info(fmt.Sprintf("Enable FIPS is: %+v", h.getCredentials()))
 	if h.getCredentials().EnableFIPS {
 		h.Log.Debug("Removing file 'dt_fips_disabled.flag' to enable FIPS mode...")
 		flagFilePath := filepath.Join(installDir, "agent/dt_fips_disabled.flag")
@@ -241,6 +242,7 @@ func (h *Hook) getCredentials() *credentials {
 				CustomOneAgentURL: queryString("customoneagenturl"),
 				SkipErrors:        queryString("skiperrors") == "true",
 				NetworkZone:       queryString("networkzone"),
+				EnableFIPS:        queryString("enabledfips") == "true",
 			}
 
 			if (creds.EnvironmentID != "" && creds.APIToken != "") || creds.CustomOneAgentURL != "" {
